@@ -5,16 +5,16 @@
 using namespace std;
 
 int main (){
-int l,n;
-cin >> n >> l;
-vector<string> s(n);
-rep(i,n){
-    cin >> s[i];
-}
-sort(s.begin(),s.end());
-rep(i,n){
-    cout<< s[i] ;
-}
-return 0;
+    int l,n;
+    cin >> n >> l;
+    vector<string> s(n);
+    rep(i,n){
+        cin >> s[i];
+    }
+    sort(s.begin(),s.end());
+    rep(i,n){
+        cout<< s[i] ;
+    }
+    return 0;
 
 }
