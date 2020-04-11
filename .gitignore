@@ -1,2 +1,3 @@
 *.out
 *.codeworkingspace
+.vscode/settings.json
