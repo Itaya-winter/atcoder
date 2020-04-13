@@ -10,5 +10,4 @@ int main (){
     if(a==1 || b==1)cout<<"1" << endl;
     else cout  << (ll)(a*b+1)/2 << endl;
     return 0;
-
 }
