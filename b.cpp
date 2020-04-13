@@ -3,15 +3,13 @@
 #define rep(i, n) for(int i = 0; i < (int)(n); i++)
 #include<bits/stdc++.h>
 using namespace std;
-
-int main(){
-    string s;
-    cin >> s;
-    if(s[0]== s[1] && s[1] == s[2])
-    {
-        cout << "No" << endl;
-        return 0;
+int main(void){
+    ll n;
+    ll ans = 0;
+    cin >>n;
+    rep(i,n+1){
+        if(i%3 !=0 &&i%5 != 0)ans +=i;
     }
-    cout << "Yes" << endl;
+    cout << ans;
     return 0;
 }
