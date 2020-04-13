@@ -5,6 +5,16 @@
 using namespace std;
 
 int main (){
+    string a,b;
+    int ab;
+    cin >>a>>b;
+    a = a+b;
+    ab = stoi(a);
+    for(int i = 0;i < ab/2 ;i++){
+        if(ab == pow(i,2)){cout << "Yes" << endl;
+        return 0;}
+    }
+    cout << "No" << endl;
     return 0;
 
 }
