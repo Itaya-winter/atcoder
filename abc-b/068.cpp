@@ -8,6 +8,5 @@ int main (){
     cin >>n;
     for ( i = 0; pow(2,i) <= n; i++);  
     cout <<pow(2,i-1) <<endl;
-    
     return 0;
 }
