@@ -4,14 +4,14 @@
 #include<bits/stdc++.h>
 using namespace std; 
 int main(){
-   string s ,t;
-   cin >> s >> t;
-   for (int i = 0; i < s.length(); i++)
-   {
-       if(s[i] != t[i]){
-       cout << "No" << endl;
-       return 0;}
-   }
-   cout << "Yes" << endl;
+    int a,b,c,k;
+    cin >>a >> b >> c >> k;
+    if(a >= k){
+        cout << k << endl;
+    }
+    else if(a + b >= k){
+        cout << a <<endl;
+    }
+    else cout <<a-(k-a-b) << endl;
    return 0;
 }
