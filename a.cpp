@@ -4,10 +4,8 @@
 #include<bits/stdc++.h>
 using namespace std; 
 int main(){
-    int64_t a,ans;
-    double b;
-    cin >> a >> b;
-    ans = a*b/1;
-    cout <<ans << endl;
+    int a,b;
+    cin>>a >>b;
+    cout <<a*b;
     return 0;
 }
